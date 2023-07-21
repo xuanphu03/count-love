@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    font-family: 'Lobster', cursive;
+    min-width: 350px;
+    /* min-height: 600px; */
+}
+
+.size-h1 {
+    font-size: 40px;
+}
+
+.size-h2 {
+    font-size: 30px;
+}
+
+.size-p {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 750px) {
+    .box-time {
+        margin-top: 20px;
+    }
+    
+    #blockquote {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #count-time {
+        font-size: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {  
+    .box {
+        padding: 15px;
+        flex-direction: column-reverse !important;
+    }
+
+    .size-h2{
+        font-size : 16px;
+    }
+
+    .size-p {
+        font-size: 14px;
+    }
+
+    .info {
+        margin-bottom: 10px;
+    }
+
+    .box-time {
+        flex-direction: column-reverse !important;
+        margin-top: 20px;
+    }
+
+    #blockquote {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        margin-top: 20px;
+        font-size: 12px;
+        align-items: center;
+    }
+
+    #count-time {
+        font-size: 40px;
+    }
+
+    .times {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #blockquote {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 900px) {
+    #blockquote {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 660px) {
+    .times {
+        font-size: 18px;
+    }
+}

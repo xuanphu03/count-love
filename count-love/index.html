@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Count Time Love</title>
+        
+        <link rel="stylesheet" href="asset/css/style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-cover bg-[url('./asset/images/background.jpg')]">
+        <main class="main h-screen flex flex-col justify-center items-center gap-10">
+            <h1 class="size-h1 font-medium uppercase opacity-60">Been Together</h1>
+            <div class="box w-2/3 h-2/5 px-8 py-5 rounded-[30px] shadow-sm flex flex-col justify-between bg-white">
+                <div class="info flex justify-between">
+                    <div>
+                        <h2 class="size-h2">Trần Tín</h2>
+                        <p class="size-p">15/11/2003</p>
+                    </div>
+
+                    <div class="text-right">
+                        <h2 class="size-h2">Hoàng Thảo Ly</h2>
+                        <p class="size-p">01/03/2004</p>
+                    </div>
+                </div>
+
+                <div class="box-time flex flex-col items-center justify-center">
+                    <blockquote id="blockquote" class="text-[16px] font-mono italic w-1/2 h-[100px] text-center justify-center">hihi</blockquote>
+                    <p  id="count-time"class="text-[70px]">0000<span> days</span></p>
+                    <p id="dateTime">01/01/2000</p>
+                    <p class="times text-[40px]">
+                        <span id="hour">00</span> :
+                        <span id="minute">00</span> :
+                        <span id="second">00</span>
+                    </p>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="asset/src/main.js"></script>
+</html>
